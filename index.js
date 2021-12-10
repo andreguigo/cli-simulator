@@ -3,7 +3,8 @@ let words = `
         Eu sou André Albuquerque [ @andreguigo nas redes sociais ].\n
         Todos os dias, um aprendizado a mais e atualmente, engenheiro de software em Recife.\n\n
         Carregando experiências:\n
-        [ FUSION DMS ]:\n Dev pleno\n Set 2020/atualmente\n
+        [ KURIER TECNOLOGIA ]: \n Dev pleno\n Out 2021/atualmente\n
+        [ FUSION DMS ]:\n Dev pleno\n Set 2020 a Set 2021\n
         [ FACULDADE NOVA ROMA ]:\n Webmaster\n Jun 2014 a Set 2020\n
         [ INTERNE HOME CARE ]:\n Comunicação\n Out 2013 a Mai 2014\n
         [ ... ]\n\n
@@ -16,7 +17,7 @@ function start() {
 
     const temp = setInterval(() => {
         loadtxt = loadtxt + words[i];
-        document.querySelector('p[txt]').innerText = `${loadtxt}`;
+        document.querySelector('p[txt]').innerText = `${loadtxt}_`;
             
         if (i === (words.length - 1))
             clearInterval(temp);
